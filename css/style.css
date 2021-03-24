@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+#lol {
+  text-align: center;
+  color: forestgreen;
+  font-size: 40px;
+}
+
+#lallero {
+  text-align: center;
+  color: maroon;
+  font-size: 40px;
+  margin-top: 500px;
+}
+
+#fulmicotone {
+  text-align: center;
+  position: relative;
+  top: 241px;
+  color: dodgerblue;
+  font-size: 40px;
+}
