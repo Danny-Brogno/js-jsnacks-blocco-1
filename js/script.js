@@ -117,44 +117,44 @@ function init() {
   // Dare la possibilità all'utente attraverso 3 prompt di
   // aggiungere un nuovo oggetto studente inserendo
   // nell'ordine: nome, cognome e età.
-  //
-  // var studenti = [
-  //   {
-  //     "nome": "Orazio",
-  //     "cognome": "Nelson",
-  //     "eta": 38
-  //   },
-  //   {
-  //     "nome": "Diego",
-  //     "cognome": "Alatriste",
-  //     "eta": 34
-  //   },
-  //   {
-  //     "name": "Napoleone",
-  //     "cognome": "Bonaparte",
-  //     "eta": 50
-  //   }
-  // ];
-  //
-  // var nuovoNome = prompt("Dammi il tuo nome");
-  // var nuovoCognome = prompt("Dammi il tuo cognome");
-  // var nuovaEta = prompt("Dammi la tua età");
-  //
-  // var nuovoStudente = {
-  //   "nome": nuovoNome,
-  //   "cognome": nuovoCognome,
-  //   "eta": nuovaEta
-  // };
-  //
-  // studenti.push(nuovoStudente);
-  //
-  // for (var i = 0; i < studenti.length; i++) {
-  //   var studente = studenti[i];
-  //   var nomen = studente["nome"];
-  //   var cognomen = studente["cognome"];
-  //   var aetate = studente["eta"]
-  // };
-  // console.log(studenti, nomen, cognomen, aetate);
+  
+  var studenti = [
+    {
+      "nome": "Orazio",
+      "cognome": "Nelson",
+      "eta": 38
+    },
+    {
+      "nome": "Diego",
+      "cognome": "Alatriste",
+      "eta": 34
+    },
+    {
+      "name": "Napoleone",
+      "cognome": "Bonaparte",
+      "eta": 50
+    }
+  ];
+
+  var nuovoNome = prompt("Dammi il tuo nome");
+  var nuovoCognome = prompt("Dammi il tuo cognome");
+  var nuovaEta = prompt("Dammi la tua età");
+
+  var nuovoStudente = {
+    "nome": nuovoNome,
+    "cognome": nuovoCognome,
+    "eta": nuovaEta
+  };
+
+  studenti.push(nuovoStudente);
+
+  for (var i = 0; i < studenti.length; i++) {
+    var studente = studenti[i];
+    var nomen = studente["nome"];
+    var cognomen = studente["cognome"];
+    var aetate = studente["eta"]
+  };
+  console.log(studenti, nomen, cognomen, aetate);
 
   // --------------------------------------------------------------------------
 
@@ -162,39 +162,30 @@ function init() {
 
   // chiedere all'utente il colore della palla e valorizzare il campo corrispondente. Loggare poi l'oggetto risultante
 
-  // var palla = {
-  //   "nome": "Danny",
-  //   "peso": 12,
-  //   "colore": "blue e verde"
-  // };
-  // console.log(palla);
-  //
-  // var userColor = prompt("Dimmi il colore della palla");
-  // palla["colore"] = userColor;
-  //
-  // console.log(palla);
+  var palla = {
+    "nome": "Danny",
+    "peso": 12,
+    "colore": "blue e verde"
+  };
+  console.log(palla);
+
+  var userColor = prompt("Dimmi il colore della palla");
+  palla["colore"] = userColor;
+
+  console.log(palla);
 
   // richiedere all'utente base ed altezza di un triangolo rettangolo, valorizzare l'oggeto con le dimensioni del triangolo, loggare triangolo e relativa area;
 
+  var base = parseInt(prompt("dimmi la base"));
+  var altezza = parseInt(prompt("dimmi l'altezza"));
 
+  var triangolo = {
+    "base": base,
+    "altezza": altezza
+  };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  var area = triangolo.base * triangolo.altezza / 2;
+  console.log(triangolo, area);
 
   // Crea un array di 10 oggetti che rappresentano una
   // zucchina, indicando per ognuna varietà, peso e lunghezza.
