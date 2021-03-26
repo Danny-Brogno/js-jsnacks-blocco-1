@@ -117,7 +117,7 @@ function init() {
   // Dare la possibilità all'utente attraverso 3 prompt di
   // aggiungere un nuovo oggetto studente inserendo
   // nell'ordine: nome, cognome e età.
-  
+
   var studenti = [
     {
       "nome": "Orazio",
@@ -190,7 +190,7 @@ function init() {
   // Crea un array di 10 oggetti che rappresentano una
   // zucchina, indicando per ognuna varietà, peso e lunghezza.
   // Calcola quanto pesano tutte le zucchine.
-
+  //
   // var zucchine = [
   //
   //   {
